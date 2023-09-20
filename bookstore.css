@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: whitesmoke; */
+
+}
+section {
+    width: 100%;
+    height: 100vh;
+    /* background: url(https://vui.unsplash.com/resize?height=256&quality=60&type=auto&url=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fstack-books-white-background-watercolor-education-projects-generative-ai-content-275463410.jpg&sign=Ik4SX5GdohS6y2JyRwr5WhoKiYuAF1iZd7Dh9-fBAak); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+section nav {
+    width: 100%;
+    /* height: 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px skyblue;
+    background: white;
+    position: absolute;
+    left: 0;
+    z-index: 100px;
+}
+
+section nav li {
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+section nav .logo img {
+    /* width: 100px; */
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav li a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+section nav li a:hover {
+    color: skyblue;
+}
+
+.social-icon i {
+    margin: 0 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.social-icon i:hover {
+    color: skyblue;
+    transform: scale(1.1);
+}
+
+section .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 10%;
+}
+
+section .main h1 {
+    position: relative;
+    font-size: 55pz;
+    top: 80px;
+    left: 25px;
+
+
+}
+
+section .main h1 span {
+    color: skyblue;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+section .main P {
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+section .main .main-tag .main-btn {
+    background-color: rgb(103, 150, 226);
+    padding: 10px 20px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section .main img {
+    width: 700px;
+    position: relative;
+    top: 200px;
+    left: 40px;
+    margin-right: 400px;
+    background-color: whitesmoke;
+    align-items: center;
+
+
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+
+}
+
+.services .services-box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services-box .services-card {
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 8px skyblue;
+    padding: 15px 10px;
+}
+
+.services .services-box .services-card i {
+    color: cornflowerblue;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.services .services-box .services-card h3 {
+    margin-bottom: 10px;
+}
+
+.about {
+    width: 80%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about .about-image img {
+    width: 800px;
+
+}
+
+.about .about-tag p {
+    line-height: 22px;
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .about-tag .about-btn {
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+.featured-books {
+    width: 100%;
+    min-height: 100vh;
+    padding: 70px 0;
+
+}
+
+.featured-books .featured-books-box {
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.featured-books h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.featured-books .featured-books-box .featured-books-card {
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    margin: auto 20px;
+}
+
+.featured-books .featured-books-box .featured-books-card:hover {
+    box-shadow: 0 0 10px rgb(12, 12, 12);
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-books-img {
+    width: 150px;
+    height: 230px;
+    margin: 14px;
+
+
+
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-book-tag h2 {
+    margin: 12px;
+
+
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-book-tag .writer {
+    color: rgb(5, 5, 5);
+    margin-top: 100px;
+
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-book-tag .categories {
+    color: rgb(2, 2, 2);
+    margin-top: 4px;
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-book-tag .book-price {
+    margin: 0px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-book-tag del {
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+.featured-books .featured-books-box .featured-books-card .featured-book-tag .f-btn {
+    padding: 8px 20px;
+    border: 2px solid blue;
+    text-decoration: none;
+    color: rgb(2, 40, 74);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-button {
+    background-color: brown;
+    background-size: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button:hover {
+    background-color: blue;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: cadetblue;
+    border-radius: 10px;
+    border: 1px solid rgb(220, 9, 9);
+}
+
+.arrivals {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+
+.arrivals h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.arrivals .arrivals-box {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0;
+
+}
+
+.arrivals .arrivals-box .arrivals-card {
+    width: 250px;
+    height: 340px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    margin: auto 20px;
+}
+.arrivals .arrivals-box .arrivals-card:hover{
+    box-shadow: 0 0 20px rgb(127, 127, 239);
+}
+
+.arrivals .arrivals-box .arrivals-card .arrivals-image {
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.arrivals .arrivals-box .arrivals-card .arrivals-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.arrivals .arrivals-box .arrivals-card:hover .arrivals-image img{
+transform: scale(1.5);
+}
+.arrivals .arrivals-box .arrivals-card .about-tag p{
+    font-size: 20px;
+    margin: 8px 0;
+}
+.arrivals .arrivals-box .arrivals-card .arrivals-tag .arrivals-icon{
+    color: rgb(96, 163, 230);
+    margin-bottom: 18px;
+}
+.arrivals .arrivals-box .arrivals-card .arrivals-tag .arrivals_btn{
+    padding: 8px 20px;
+    border: 2px solid rgb(12, 121, 231);
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+
+
